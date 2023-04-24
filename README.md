@@ -1,0 +1,2 @@
+# GhostWriter
+Temporary Writing Application
