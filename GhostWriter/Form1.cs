@@ -45,5 +45,15 @@ namespace GhostWriter
             if (TemporaryText.Lines.Length > 3)
                 deleteFirstLine();
         }
+
+
+
+ 
+        ..
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+1       {
+            Close();
+        }
+
     }
 }

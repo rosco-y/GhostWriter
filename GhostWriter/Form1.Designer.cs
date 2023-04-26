@@ -35,6 +35,10 @@
             this.TopLineMenu = new System.Windows.Forms.MenuStrip();
             this.mnuClear = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuClearAllText = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TopLineMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +61,9 @@
             // 
             // TopLineMenu
             // 
+            this.TopLineMenu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TopLineMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
             this.mnuClear});
             this.TopLineMenu.Location = new System.Drawing.Point(0, 0);
             this.TopLineMenu.Name = "TopLineMenu";
@@ -80,10 +86,41 @@
             // mnuClearAllText
             // 
             this.mnuClearAllText.Name = "mnuClearAllText";
-            this.mnuClearAllText.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.mnuClearAllText.Size = new System.Drawing.Size(210, 30);
+            this.mnuClearAllText.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.mnuClearAllText.Size = new System.Drawing.Size(211, 30);
             this.mnuClearAllText.Text = "All Text";
             this.mnuClearAllText.Click += new System.EventHandler(this.mnuClearAllText_Click);
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionsToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.closeToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 29);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(231, 30);
+            this.optionsToolStripMenuItem.Text = "Options...";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(231, 30);
+            this.toolStripMenuItem2.Text = "-";
+            // 
+            // closeToolStripMenuItem
+            // 
+            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
+            this.closeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(231, 30);
+            this.closeToolStripMenuItem.Text = "Close";
+            this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // frmGhostWriter
             // 
@@ -109,6 +146,10 @@
         private System.Windows.Forms.MenuStrip TopLineMenu;
         private System.Windows.Forms.ToolStripMenuItem mnuClear;
         private System.Windows.Forms.ToolStripMenuItem mnuClearAllText;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
     }
 }
 
