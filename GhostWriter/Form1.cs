@@ -46,14 +46,15 @@ namespace GhostWriter
                 deleteFirstLine();
         }
 
-
-
- 
-        ..
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
-1       {
+       {
             Close();
         }
 
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOptions optionsForm = new frmOptions();
+            optionsForm.ShowDialog();
+        }
     }
 }

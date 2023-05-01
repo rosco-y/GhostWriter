@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWriter", "GhostWriter.csproj", "{C1D54754-9B9C-4AF6-A49D-7F82E7870B4B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "D:\Public_Share\Programs\GhostWriter\Setup\Setup1\Setup1.vdproj", "{41B07241-347C-42B5-BC7E-561F5A6EADC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{C1D54754-9B9C-4AF6-A49D-7F82E7870B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D54754-9B9C-4AF6-A49D-7F82E7870B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D54754-9B9C-4AF6-A49D-7F82E7870B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B07241-347C-42B5-BC7E-561F5A6EADC2}.Debug|Any CPU.ActiveCfg = Debug
+		{41B07241-347C-42B5-BC7E-561F5A6EADC2}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
